@@ -8,7 +8,7 @@ return [
 
         'modal' => [
 
-            'heading' => 'Delete :label',
+            'heading' => 'Delete This Data',
 
             'actions' => [
 
@@ -36,7 +36,7 @@ return [
 
         'modal' => [
 
-            'heading' => 'Delete selected :label',
+            'heading' => 'Delete selected data',
 
             'actions' => [
 
