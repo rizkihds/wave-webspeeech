@@ -3,7 +3,7 @@
         <div class="relative z-30 flex items-center justify-between h-24 md:space-x-6">
             <div class="inline-flex">
                 <a href="{{ route('home') }}" class="flex items-center justify-center space-x-3 text-blue-500 transition-all duration-1000 ease-out transform">
-                   <x-logo class="w-auto h-8"></x-logo>
+                   <!-- <x-logo class="w-auto h-8"></x-logo> -->
                 </a>
             </div>
             <div class="flex justify-end flex-grow -my-2 -mr-2 md:hidden">

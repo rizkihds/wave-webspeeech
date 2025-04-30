@@ -21,7 +21,7 @@
         <div class="relative z-30 flex items-center justify-between h-24 md:space-x-6">
             <div class="inline-flex md:pl-0 pl-7">
                 <a href="{{ route('home') }}" class="flex items-center justify-center space-x-3 text-blue-500 transition-all duration-1000 ease-out transform">
-                   <x-logo class="w-auto h-8"></x-logo>
+                   <!-- <x-logo class="w-auto h-8"></x-logo> -->
                 </a>
             </div>
             <div class="flex justify-end pr-6 md:hidden md:pr-0">
@@ -99,7 +99,7 @@
                                 @else
                                     <li class="md:px-0.5 md:w-auto w-full md:hidden block px-6 py-2">
                                         <x-button href="{{ route('dashboard') }}" tag="a" size="md" class="w-full">
-                                            View Dashboard
+                                            Voice-to-text
                                         </x-button>
                                     </li>
                                 @endif
@@ -193,7 +193,7 @@
                 @else
                     <div class="overflow-hidden rounded-full">
                         <x-button href="{{ route('dashboard') }}" tag="a" size="md">
-                            View Dashboard
+                            Explore, Voice-to-text
                         </x-button>
                     </div>
                 @endif
@@ -287,7 +287,7 @@
                             </p>
                         @else
                             <a href="{{ route('dashboard') }}" class="flex items-center justify-center w-full px-4 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-blue-600 border border-transparent rounded-md rounded-full shadow-sm hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-wave active:bg-blue-700">
-                                View Dashboard
+                                Explore, Voice-to-text
                             </a>
                         @endif
                     </div>
