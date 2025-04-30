@@ -62,7 +62,7 @@
                         ->after(function () {
                             Notification::make()
                                 ->success()
-                                ->title('Project deleted')
+                                ->title('Meeting deleted')
                                 ->send();
                         })
                     ->mutateFormDataUsing(function (array $data): array {
@@ -72,7 +72,7 @@
                     ->after(function () {
                         Notification::make()
                             ->success()
-                            ->title('Project created')
+                            ->title('Data Has Loaded.')
                             ->send();
                     }),
                 ])

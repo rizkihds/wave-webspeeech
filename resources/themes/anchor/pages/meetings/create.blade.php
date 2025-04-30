@@ -50,7 +50,7 @@
 
             Notification::make()
                 ->success()
-                ->title('Project created successfully')
+                ->title('Meetings created successfully')
                 ->send();
 
             $this->redirect('/meetings');
