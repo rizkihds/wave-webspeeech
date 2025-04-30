@@ -125,9 +125,9 @@
                         </x-button>
                         <input type="hidden" name="meeting_id" wire:model.defer="meeting_id">
                         <input type="hidden" name="interim_span" wire:model.defer="interim_span" id="interim_span">
-                        <button type="submit" id="end_button">
+                        <!-- <button type="submit" id="end_button">
                             Stop Talk
-                        </button>
+                        </button> -->
 
                     </div>
                 </form>
