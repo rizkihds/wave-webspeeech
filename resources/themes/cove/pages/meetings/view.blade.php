@@ -82,8 +82,8 @@
     @volt('meetings.view')
         
         <x-app.side_actions-layout
-            title="{{$this->get_meeting->name}} Meeting Demonstration"
-                description="Meeting Areas"
+            title="{{$this->get_meeting->name}} - Info"
+                description="Voice-to-text Areas"
                 urls="/meetings"
                 prevmessage="Back To List"
                 iconz="phosphor-list-dashes-fill"

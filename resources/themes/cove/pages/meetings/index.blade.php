@@ -62,7 +62,7 @@
                         ->after(function () {
                             Notification::make()
                                 ->success()
-                                ->title('Meeting deleted')
+                                ->title('Voice-to-text deleted')
                                 ->send();
                         })
                     ->mutateFormDataUsing(function (array $data): array {
@@ -111,7 +111,7 @@
 
             Notification::make()
                 ->success()
-                ->title('Meeting created successfully')
+                ->title('Voice-to-text created successfully')
                 ->send();
         }
     }
@@ -120,21 +120,21 @@
 <x-layouts.app>
     @volt('meetings')
         <x-app.side_actions-layout
-            title="Meetings" description="Check out your meetings below"
+            title="Voice-to-text" description="Check out your voice-to-text below"
             urls="/dashboard" prevmessage="Back To Dashboard" iconz="phosphor-air-traffic-control-duotone">
             <div class="flex items-center justify-between mb-5">
                 <x-filament::modal id="create-meeting" width="md" :slide-over="true">
                     <x-slot name="trigger">
-                        <x-button>New Meeting</x-button>
+                        <x-button>New Voice-to-text</x-button>
                     </x-slot>
                     <x-slot name="header">
-                        <h2 class="text-lg font-medium">Create Meeting</h2>
+                        <h2 class="text-lg font-medium">Create Voice-to-text</h2>
                     </x-slot>
                     <form wire:submit="create" class="space-y-6">
                         {{ $this->form }}
                         <div class="flex justify-end mt-6">
                             <x-button type="submit" wire:target="create">
-                                Create Meeting
+                                Create Voice-to-text
                             </x-button>
                         </div>
                     </form>

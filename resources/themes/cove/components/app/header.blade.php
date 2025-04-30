@@ -66,7 +66,7 @@
                         </div>
                     </div> -->
                     
-                    <a href="{{ route('meetings') }}" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 transition duration-150 ease-in-out text-zinc-500 hover:text-zinc-700 focus:outline-none focus:text-zinc-700 focus:border-zinc-300">Meeting</a>
+                    <a href="{{ route('meetings') }}" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 transition duration-150 ease-in-out text-zinc-500 hover:text-zinc-700 focus:outline-none focus:text-zinc-700 focus:border-zinc-300">Voice-to-text</a>
                     <!-- <a href="/changelog" class="inline-flex items-center px-1 pt-1 text-sm font-medium leading-5 transition duration-150 ease-in-out text-zinc-500 hover:text-zinc-700 focus:outline-none focus:text-zinc-700 focus:border-zinc-300">Changelog</a> -->
                 </nav>
 
@@ -98,7 +98,7 @@
                         <a href="{{ route('meetings') }" target="_blank" class="flex items-center p-3 -mx-2 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-zinc-50">
                             <x-phosphor-book-duotone class="flex-shrink-0 w-6 h-6 text-blue-600" />
                             <div class="text-base font-medium leading-6 text-zinc-900">
-                                Meeting
+                                Voice-to-text
                             </div>
                         </a>
                         <!-- <a href="https://devdojo.com/course/wave" target="_blank" class="flex items-center p-3 -mx-2 space-x-3 transition duration-150 ease-in-out rounded-md hover:bg-zinc-50">
