@@ -1,0 +1,18 @@
+{
+  "resources/css/filament/admin/theme.css": {
+    "file": "assets/theme-BrQi3r8z.css",
+    "src": "resources/css/filament/admin/theme.css",
+    "isEntry": true
+  },
+  "resources/themes/cove/assets/css/app.css": {
+    "file": "assets/app-dLT_XU-w.css",
+    "src": "resources/themes/cove/assets/css/app.css",
+    "isEntry": true
+  },
+  "resources/themes/cove/assets/js/app.js": {
+    "file": "assets/app-CuBpdYhA.js",
+    "name": "app",
+    "src": "resources/themes/cove/assets/js/app.js",
+    "isEntry": true
+  }
+}
